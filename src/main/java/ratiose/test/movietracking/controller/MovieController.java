@@ -38,7 +38,7 @@ public class MovieController {
         }
     }
 
-    @RequestMapping(value = "/addFavourite", method = RequestMethod.POST)
+    @RequestMapping(value = "/markAsWatched", method = RequestMethod.POST)
     public WatchedMovie addWatchedMovieById(@RequestParam Long movieId,
                                             HttpSession session) {
         User user = (User) session.getAttribute("user");
