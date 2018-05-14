@@ -1,6 +1,5 @@
-To run project you should execute:
-1. mvn compile  
-2. mvn spring-boot:run  
+To run project you should execute: 
+  mvn spring-boot:run  
 Application will start at port 8080.  
   
 There are folowing endpoints:  
